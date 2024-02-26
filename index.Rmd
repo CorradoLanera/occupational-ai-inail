@@ -220,6 +220,45 @@ class: inverse, middle, center, hide-count
 ]
 
 
+
+
+
+---
+class: inverse, middle, center, hide-count
+
+# Chat G.orange[P]T: .orange[Preaddestrato]
+
+```{r, echo=FALSE, out.width="90%", fig.alt="https://s10251.pcdn.co/pdf/2023-Alan-D-Thompson-AI-Bubbles-Rev-7b.pdf"}
+knitr::include_graphics(
+  here::here("img/2023-Alan-D-Thompson-AI-Bubbles-Rev-7b.png")
+)
+```
+
+
+---
+# .orange[Trasferimento] dell'apprendimento
+
+
+```{r, echo=FALSE, out.width="80%", fig.alt="https://www.mdpi.com/1424-8220/23/2/570"}
+knitr::include_graphics(
+  here::here("img/transfer-learning.png")
+)
+```
+
+
+---
+# .orange[Zero-shot] learning
+
+
+```{r, echo=FALSE, out.width="80%"}
+knitr::include_graphics(
+  here::here("img/transfer-vs-zero-shot.png")
+)
+```
+
+
+
+
 ---
 class: inverse, middle, center, hide-count
 
@@ -287,40 +326,6 @@ knitr::include_graphics("img/transformer-4.png")
 
 
 
----
-class: inverse, middle, center, hide-count
-
-# Chat G.orange[P]T: .orange[Preaddestrato]
-
-```{r, echo=FALSE, out.width="90%", fig.alt="https://s10251.pcdn.co/pdf/2023-Alan-D-Thompson-AI-Bubbles-Rev-7b.pdf"}
-knitr::include_graphics(
-  here::here("img/2023-Alan-D-Thompson-AI-Bubbles-Rev-7b.png")
-)
-```
-
-
----
-# .orange[Trasferimento] dell'apprendimento
-
-
-```{r, echo=FALSE, out.width="80%", fig.alt="https://www.mdpi.com/1424-8220/23/2/570"}
-knitr::include_graphics(
-  here::here("img/transfer-learning.png")
-)
-```
-
-
----
-# .orange[Zero-shot] learning
-
-
-```{r, echo=FALSE, out.width="80%"}
-knitr::include_graphics(
-  here::here("img/transfer-vs-zero-shot.png")
-)
-```
-
-
 
 ---
 class: inverse, middle, center, hide-count
@@ -359,11 +364,11 @@ knitr::include_graphics(
 ---
 class: inverse, middle, center, hide-count
 
-# .orange[Come usiamo **Chat GPT** / **Gemini**?]
+# .orange[Come usiamo queste tecnologie?]
 
 .left[
-- Base: **Web** 
-- Avanzato: **API**
+- Nel quotidiano: **Web** 
+- A livello industriae/lavorativo/ricerca: **API**
 ]
 
 
@@ -412,8 +417,7 @@ ma...
 - **.orange[Abbozza]** un progetto...
 - **.orange[Scrivi]** il codice R per fare questa analisi...
 
-se _giochiamo_ seriamente fa comodo un po' più di **.orange[strategia]** `r emo::ji("wink")`...<br>
- .right[... e Molta **.orange[competenza]**!]
+se _giochiamo_ seriamente serve **.orange[strategia]** e Molta **.orange[competenza]**!
 
 > Far svolgere compiti di cui non abbiamo competenze abbastanza elevate da capire se (**.orange[quando!!]**) **.orange[sbaglia]**... è **.orange[estremamente rischioso]**!!
 
@@ -490,13 +494,6 @@ knitr::include_graphics("img/gemma-crediti.png")
 
 
 
----
-# Ma di chosa stiamo parlando?!...
-
-```{r, echo=FALSE}  
-knitr::include_graphics("img/openai-7kb.png")
-
-```
 
 ---
 # Tutto funziona grazie a NVIDIA<br>che e quindi...
@@ -515,6 +512,26 @@ knitr::include_graphics("img/nvidia-passed-amazon.png")
 
 ```
 
+
+---
+# E non è finita...
+
+```{r, echo=FALSE, out.width="80%"}  
+knitr::include_graphics("img/sora-vs-gemini.png")
+```
+<https://openai.com/sora>
+
+
+
+
+---
+# Ma di chosa stiamo parlando?!...
+
+```{r, echo=FALSE}  
+knitr::include_graphics("img/openai-7kb.png")
+
+```
+Trillion << Trilione ([click](https://www.terminologiaetc.it/2019/04/26/significato-traduzione-trillion-billion/))... ma è comunque tantino :-)
 
 
 ---
@@ -649,25 +666,31 @@ ma di più...
 ---
 # .orange[Guidance] for .orange[Generative AI] in .orange[education] and .orange[research]
 ```{r, echo=FALSE}
-knitr::include_app("https://unesdoc.unesco.org/ark:/48223/pf0000386693")
+knitr::include_graphics("img/uneso-gpt-guidelines.png")
 ```
 
+
+> Sito: https://unesdoc.unesco.org/ark:/48223/pf0000386693
 > Per scaricare il PDF, [cicca qui](https://inee.org/sites/default/files/resources/386693eng.pdf)
 
 
 ---
-## .orange[EdGPT]...
-
-<!-- ```{r, echo=FALSE} -->
-<!-- knitr::include_url( -->
-<!--   "https://ednovation.com/edgpt/", height = "500px"  -->
-<!-- ) -->
-<!-- ``` -->
+## Ultimi esempi/considerazioni: .orange[EdGPT]...
 
 
+```{r, echo=FALSE}
+knitr::include_graphics("img/ednogpt.png")
+```
+
+https://ednovation.com/edgpt/
 
 
 
+---
+## Ultimi esempi/consideraizoni: programmatori
+
+ChatGPT outperforms 85% of the 4m programmers assessed on Python on LinkedIn - CFTE
+https://courses.cfte.education/chatgpt-outperforms-4m-programmers/
 
 
 ---
