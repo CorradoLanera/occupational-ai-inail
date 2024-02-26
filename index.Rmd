@@ -167,7 +167,7 @@ style_duo_accent(
 
 <br>
 
-# **.orange[AI Generative] `r emo::ji("robot")`<br>in Ambito Occupazionale:**<br>**Fondamenti, Esmpi, Potenzialità e .orange[Perplessità]**
+# **.orange[AI Generative] `r emo::ji("robot")`<br>in Ambito Occupazionale:**<br>**Fondamenti, Esempi, Potenzialità e .orange[Perplessità]**
 
  
 
@@ -690,6 +690,11 @@ https://ednovation.com/edgpt/
 ## Ultimi esempi/consideraizoni: programmatori
 
 ChatGPT outperforms 85% of the 4m programmers assessed on Python on LinkedIn - CFTE
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/chatgpt-beats=programmers.png")
+```
+
 https://courses.cfte.education/chatgpt-outperforms-4m-programmers/
 
 
