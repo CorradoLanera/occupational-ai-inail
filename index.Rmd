@@ -440,6 +440,18 @@ https://platform.openai.com/docs/guides/gpt/chat-completions-api
 
 ---
 ```{r, echo=FALSE}
+knitr::include_graphics("img/chatgpt-occupazional.png")
+```
+
+
+---
+class: inverse, middle, center, hide-count
+
+# Come impatta questa tecnologia?
+
+
+---
+```{r, echo=FALSE}
 knitr::include_graphics("img/100M-users.png")
 ```
 
